@@ -1,0 +1,75 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: indianred;
+    color: beige;
+    margin: 0;
+    padding: 0;
+}
+h1{
+
+    background-color: crimson;
+    color: beige;
+    padding: 18px;
+    text-align: center;
+}
+.app{
+    width: 70%;
+    background: beige;
+    padding: 30px;
+    margin: 50px auto;
+    color: darkblue;
+    box-shadow: 1px 2px 1px #FEFEFF
+
+}
+input[type=text]{
+    border: 0ch;
+    width: 80%;
+    height: 35px;
+    padding: 6px 10px;
+    background-color:burlywood; 
+}
+ button{
+    width: 19%;
+    padding: 6px 0px;
+    border: 1px solid #FEFEFF;
+    color: darkorange;
+    background-color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-display: bold;
+
+}
+ul {
+    padding: 0;
+    margin: 0%;
+}
+li span {
+    width: 60%;
+    margin-right: 10px;
+    font-size: 40px;
+    display: inline-block;
+}
+li{
+margin: 15px 0;
+}
+
+     
+
+
+
+    li > button:first-of-type{
+        width:19%;
+        background: #111111;
+        color: darkorange;
+    }
+    li > button:last-of-type{
+        width:19%;
+        background:black;
+        color:darkorange;
+    }
+    ul > form{
+        margin: 15px 0;
+    }
